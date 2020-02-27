@@ -1,4 +1,5 @@
 const string = `
+<style>
 .skin *{box-sizing: border-box;margin: 0;padding: 0;}
 .skin *::before{box-sizing: border-box;}
 .skin *::after{box-sizing: border-box;}
@@ -167,6 +168,7 @@ const string = `
 .face.right{
     transform: translateX(180px);
 }
+</style>
 `
 
 export default string

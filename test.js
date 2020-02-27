@@ -42,12 +42,12 @@ const player = {
   },
   play: () => {
     player.id = setInterval(player.run, player.time)
-    // btnPlay.onclick = null
+    btnPlay.onclick = null
   },
   
   pause: () => {
     window.clearInterval(player.id)
-    // btnPlay.onclick = player.play
+    btnPlay.onclick = player.play
 
   },
   slow: () => {
